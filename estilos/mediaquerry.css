@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@media screen and (min-width : 768px) {
+    section.canto{
+        float: left;
+    }
+    .img>p{
+        max-width: 500px; 
+    }
+    .branco> ul >li{
+       display: inline-block;
+       margin-left: 15px;
+    }
+    body{
+        background-image: url(../Img/papel-de-parede/fundo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation:colors 45s ease infinite ;
+    }
+    header{
+        background-image: linear-gradient(45deg, black,#404040,#02043a,#0606ba,#080142,#0D0D0D,#000000);
+        background-repeat: repeat-x;
+        background-size: 200% 200%;
+        animation:colors 25s ease infinite ;
+    }
+    @keyframes colors {
+        0%{
+            background-position: 0% 50%;
+        }
+        50%{
+            background-position: 100% 70%;
+        }
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+}

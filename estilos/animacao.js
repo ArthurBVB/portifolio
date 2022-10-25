@@ -3,7 +3,7 @@ function carregar(){
     var msg = window.document.getElementById('hora')
     var foto = window.document.getElementById('foto')
     var data = new Date()
-    var hora = data.getHours()
+    var hora = data.getHours().toFixed(2)
     if(hora < 6){
         //madrugada
         msg.innerHTML = `Agora são ${hora} horas. Boa madrugada!!!`
