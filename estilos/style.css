@@ -57,20 +57,21 @@ section.canto{
 }
 main{
     background-color: white;
-    max-width: 900px;
+    max-width: 880px;
     margin: auto; 
-    padding: 30px;
+    padding: 48px;
     text-indent: 30px;
-    line-height: 1.5em;
+    line-height: 2em;
     border-radius: 5px;
+    text-align: justify;
 }
 h1{
     font-size: 1.3em;
     text-align: center;
+    padding-top: 20px;
 }
 main> p{
     padding-top:30px ;
-    padding-bottom: 30px;
 }
 .img{
     background-image: url(../Img/fundo-interativo/madruga.jpg);
@@ -86,7 +87,7 @@ main> p{
     background-color: rgba(255, 255, 255, 0.67);
     max-width: 300px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.401);
 }
 .branco>h2{
@@ -111,6 +112,21 @@ main> p{
 #j72{
 width: 72px;
 height: 72px;
+}
+#cur{
+    text-align: center;
+    padding-bottom: 30px;
+    color: darkred;
+    font-style: italic;
+}
+#cur a{
+    color: black;
+}
+#cur a:hover{
+    padding: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    transition: 0.4s;
 }
 a{
     text-decoration: none;
