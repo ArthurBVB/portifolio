@@ -3,26 +3,25 @@ function carregar(){
     var foto = window.document.getElementById('foto')
     var data = new Date()
     var hora = data.getHours()
-    var min = data.getMinutes()
     if(hora < 6){
         //madrugada
-        msg.innerHTML = `Agora são ${hora} : ${min}. Boa madrugada!!!`
+        msg.innerHTML = `Boa madrugada.`
         
     }else if(hora < 12 ){
         //bom dia
         foto.style.backgroundImage = "url(./Img/fundo-interativo/cafe.jpg)"
-        msg.innerHTML = `Agora são ${hora} : ${min}. Bom dia!!!`
+        msg.innerHTML = `Bom dia.`
     }else if(hora < 13){
         //almoço
         foto.style.backgroundImage = 'url(./Img/fundo-interativo/almoco.jpg)'
-        msg.innerHTML = `Agora são ${hora} : ${min}. Bom almoço!!!`
+        msg.innerHTML = `Bom almoço.`
     }else if(hora < 18){
         //tarde
         foto.style.backgroundImage = "url(./Img/fundo-interativo/tarde.jpg)"
-        msg.innerHTML = `Agora são ${hora} : ${min}. Boa tarde!!!`
+        msg.innerHTML = `Boa tarde.`
     } else{
         //noite
         foto.style.backgroundImage = 'url(./Img/fundo-interativo/noite.jpg)'
-        msg.innerHTML = `Agora são ${hora} : ${min}. Boa noite!!!`
+        msg.innerHTML = `Boa noite.`
     } 
 }
