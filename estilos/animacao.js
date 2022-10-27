@@ -1,5 +1,4 @@
 function carregar(){
-    var degrade = window.document.getElementById('degrade')
     var msg = window.document.getElementById('hora')
     var foto = window.document.getElementById('foto')
     var data = new Date()
